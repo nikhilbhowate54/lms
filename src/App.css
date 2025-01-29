@@ -1,0 +1,69 @@
+.inner-banner:before {
+  /* background-color: rgba(0, 0, 0, 0.56); */
+  content: "";
+  height: 100%;
+  left: 0;
+  /* position: absolute; */
+  top: 0;
+  width: 100%;
+}
+
+.sidebar-sec {
+  /* margin-top: -305px; */
+}
+.vid-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.course-sec .card {
+  border-radius: 10px;
+}
+
+.course-sec .card {
+  z-index: 2;
+}
+.card,
+.settings-widget {
+  border: 3px solid #e9ecef;
+}
+.card {
+  border: 1px solid #e9ecef;
+  border-radius: 0;
+  margin-bottom: 1.875rem;
+}
+.card {
+  word-wrap: break-word;
+  background-clip: initial;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+}
+.video-thumbnail {
+    position: relative;
+}
+.video-details {
+    margin-top: 25px;
+}
+.course-fee {
+    -ms-flex-pack: center;
+    align-items: center;
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.btn.btn-enroll {
+    background: #159f46;
+    border: 1px solid #159f46;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 13px 20px;
+}
